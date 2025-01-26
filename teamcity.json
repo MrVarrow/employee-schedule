@@ -1,0 +1,24 @@
+{
+  "build": {
+    "stages": [
+      {
+        "name": "Build",
+        "commands": [
+          "echo 'Building the application...'"
+        ]
+      },
+      {
+        "name": "Test",
+        "commands": [
+          "echo 'Running tests...'"
+        ]
+      },
+      {
+        "name": "Deploy",
+        "commands": [
+          "echo 'Deploying the application...'"
+        ]
+      }
+    ]
+  }
+}
